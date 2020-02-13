@@ -1,0 +1,59 @@
+{
+  "name": "vue-h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve",
+    "test": "vue-cli-service build --mode test",
+    "buildm": "vue-cli-service build --modern",
+    "lint:fix": "vue-cli-service lint --fix",
+    "start": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "clipboard": "^2.0.4",
+    "compression-webpack-plugin": "^3.0.0",
+    "core-js": "^2.6.9",
+    "element-ui": "^2.12.0",
+    "es6-promise": "^4.2.6",
+    "fastclick": "^1.0.6",
+    "js-md5": "^0.7.3",
+    "mescroll.js": "^1.4.1",
+    "uuid": "^3.3.2",
+    "vue": "^2.6.6",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-lazyload": "^1.3.3",
+    "vue-meta": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "lint-staged": "^8.1.0",
+    "node-sass": "^4.9.0",
+    "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

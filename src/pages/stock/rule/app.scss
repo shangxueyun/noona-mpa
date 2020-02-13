@@ -1,0 +1,35 @@
+.rule-container {
+  min-height: 100vh;
+  background: #f24d18;
+  padding: 15px 15px 0 15px;
+  &-box {
+    background: #fffde8;
+    // border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 0 5px;
+    &__title {
+      text-align: center;
+      font-family: PingFang-SC-Medium;
+      font-size: 19px;
+      color: #262628;
+      padding: 25px 0 20px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); /*no*/
+    }
+    &__content {
+      padding: 22px 11px;
+      p {
+        font-family: PingFang-SC-Medium;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #000000;
+        word-break: keep-all;
+        word-wrap: break-word;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}

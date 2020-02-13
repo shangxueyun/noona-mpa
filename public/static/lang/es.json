@@ -1,0 +1,122 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "西班牙",
+  "data": {
+    "seo": {
+      "title": "Noona, aquí se encuentra gente de ideas afines.",
+      "keywords": "Comunidad",
+      "description": "Conoce gente de ideas afines aquí.",
+      "descriptions": "Noona es un lugar para intercambiar temas, mostrarte y hacer amigos. Decenas de miles de personas se reúnen aquí todos los días. No importa de dónde sea, cuáles son sus pasatiempos, puede encontrar personas tan especiales como usted."
+    },
+    "load": {
+      "loading": "Cargando...",
+      "loadRetry": "No se pudo cargar, haga clic para volver a intentarlo"
+    },
+    "wallet": {
+      "index": {
+        "title": "Wallet",
+        "nativeNavSubTitle": "Introduce",
+        "todayIncome": "Today’s income",
+        "yourOwn": "Your own",
+        "btnText": "Top-up",
+        "detailTitle": "Detail",
+        "noRecord": "There's no gold cash yet, Go and check in now！",
+        "checkInBtn": "Check in",
+        "exchangeRateText": "Today's exchange rate",
+        "detailType": [{
+          "key": 1,
+          "value": "Sign"
+        },
+        {
+          "key": 2,
+          "value": "Invited frend"
+        },
+        {
+          "key": 3,
+          "value": "Withdrawal"
+        }]
+      }
+    },
+    "mall": {
+      "index": {
+        "title": "Mall",
+        "globeTitle": "Globe",
+        "smartTitle": "Smart",
+        "yourOwn": "Your own",
+        "placeHolder": "Enter your phone number",
+        "tip1": "Up to 3 mobile numbers for one account",
+        "tip2": "Terms and Conditions",
+        "telLimitTip": "Up to 3 mobile numbers for one account",
+        "telErrorTip": "Please enter the correct number",
+        "btnText": "Use {0} cash deduction",
+        "btnNotText": "cash not enough",
+        "popupMobile":"Moblie Number",
+        "popupTopUp": "Top up",
+        "popupTip":"An account can only recharge 3 mobile phone numbers！",
+        "popupBtnCancel": "cancle",
+        "popupBtnConfirm": "confirm",
+        "reChangeSuccess": "Congratulations Recharge successful"
+      },
+      "mobile": {
+        "title": "Mobile number",
+        "unitText": "moblie number",
+        "empty": "pps,<br>No information currently"
+      },
+      "history": {
+        "title": "Mobile number",
+        "nativeNavSubTitle": "Mobile number",
+        "empty": "pps,<br>No information currently"
+      }
+    },
+    "invite": {
+      "title": "My Invitation",
+      "nativeNavSubTitle": "",
+      "headTip": {
+        "tip1": "Invite friends every day",
+        "tip2": "he highest 100P award"
+      },
+      "codeText": "Invitation code",
+      "copyBtnText": "Copy",
+      "copySuccess": "Successful copy",
+      "copyError": "Copy failed, please press and copy manually",
+      "shareMoreText": "More",
+      "shareTitle": "Invite friends to win cash",
+      "shareDesc": "Invite friends to earn up to 100 Pesos everyday!",
+      "dallyBounsTitle": "Daily Bonus",
+      "bounsDayText": "Day",
+      "bounsDayCheckedText": "checked",
+      "checkInBtn": "CHECK IN",
+      "checkedInBtn": "CHECKED IN",
+      "checkInError": "Error",
+      "checkInSuccess": "Success",
+      "linkTitle1": "Enter Invitation Code ",
+      "linkTitle2": "Invitation Ranking List",
+      "popupTitle": "Enter invitation code",
+      "popupPlaceHolder": "Enter invitation code",
+      "popupInputError": "Invalid!",
+      "popupTipsBtn1": "Verification",
+      "popupTips2": "Invitation Code Blnding successfully！",
+      "popupTips2-2": "Rewards have been issued to your account！",
+      "popupTipsBtn2": "OK"
+    },
+    "inviteRank": {
+      "title": "Invitation Ranking List",
+      "totalListTitle": "Total list",
+      "myListTitle": "My list",
+      "emptyTip": "Opps，haven’t invited friends yet,just invite them~",
+      "inviteFriendBtn": "Invite frends"
+    },
+    "share": {
+      "invite": {
+        "title": "Benefits From Friends",
+        "subTitle": "New users get 5 pesos",
+        "inviteTxt": "Invite you to receive a gift",
+        "copyTxt": "fill in the invitation code to get new rewards",
+        "inviteCodeTxt": "Invitation code",
+        "btnCopyTxt": "Copy",
+        "btnDownloadTxt": "Download and receive awards"
+      }
+    }
+  }
+}

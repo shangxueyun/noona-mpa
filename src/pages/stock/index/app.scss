@@ -1,0 +1,684 @@
+.stock-container {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  background: #f24d18 url(./images/header2@2x.png) no-repeat left top;
+  background-size: contain;
+  &-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+  &-layout {
+    background: #fffde8;
+    border-radius: 10px;
+    // width: 100%;
+    // min-height: 100vh;
+    box-sizing: border-box;
+    padding: 10px 15px 0 15px;
+  }
+  &-rule {
+    position: absolute;
+    left: 0;
+    top: 135px;
+    z-index: 9;
+    font-family: PingFang-SC-Medium;
+    font-size: 16px;
+    color: #e54a0d;
+    background: #fdca1d;
+    border-radius: 0 14px 14px 0;
+    padding: 3px 10px 3px 8px;
+  }
+  &-pool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    border: 4px solid #fdb222;
+    padding: 20px 0 15px 0;
+    &__money {
+      font-family: PingFangSC-Medium;
+      font-size: 16px;
+      color: #f24d18;
+      span {
+        &.unit {
+          font-family: PingFang-SC-Regular;
+          font-weight: normal;
+          font-size: 24px;
+          color: #fdca1d;
+          margin: 0 4px;
+        }
+        &.amount {
+          font-family: PingFangSC-Medium;
+          font-size: 20px;
+          color: #fdca1d;
+          text-align: center;
+          background: #f24d18;
+          border-radius: 2px;
+          margin-left: 4px;
+          // padding: 0 3px;
+          width: 17px;
+          display: inline-block;
+          &:first-of-type {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+    &__desc {
+      margin-top: 10px;
+      font-family: PingFang-SC-Medium;
+      font-size: 11px;
+      color: #eb4608;
+    }
+  }
+  // 押注
+  &-bet {
+    position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    margin-top: 20px;
+    padding: 22px 10px 24px 10px;
+    &__update {
+      padding-left: 30px;
+      font-family: PingFang-SC-Medium;
+      font-size: 12px;
+      color: #ffd600;
+    }
+    &__state {
+      display: flex;
+      padding-left: 30px;
+      margin-top: 5px;
+      span {
+        font-family: PingFang-SC-Medium;
+        font-size: 15px;
+        &.date {
+          color: #fdb222;
+        }
+        &.index {
+          margin-left: 15px;
+          color: #2ec05f;
+          &.fall {
+            color: #f14e1a;
+          }
+        }
+      }
+    }
+    &__progress {
+      margin-top: 20px;
+      position: relative;
+      height: 20px;
+      background: #f14e1a;
+      border-radius: 10px;
+      &-left {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+        font-family: PingFang-SC-Medium;
+        font-size: 12px;
+        color: #ffffff;
+      }
+      &-right {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+        font-family: PingFang-SC-Medium;
+        font-size: 12px;
+        color: #ffffff;
+      }
+      &-percent {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 3;
+        height: 20px;
+        background: #2ec05f;
+        border-radius: 10px;
+      }
+    }
+    &__action {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 26px 18px 26px;
+      &-btn {
+        width: 110px;
+        height: 44px;
+      }
+    }
+    &__history {
+      position: absolute;
+      right: 0;
+      top: 10px;
+      background: #fdca1d;
+      border-radius: 100px 0 0 100px;
+      font-family: PingFang-SC-Medium;
+      font-size: 12px;
+      color: #ffffff;
+      padding: 4px 5px 4px 4px;
+    }
+    &__wait {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25px;
+      p {
+        font-family: PingFangSC-Regular;
+        font-size: 12px;
+        color: #4d4943;
+        line-height: 1.5;
+        &:first-of-type {
+          font-family: PingFangSC-Medium;
+          font-size: 18px;
+          color: #f24d18;
+          line-height: 2;
+        }
+      }
+    }
+  }
+  &-tips {
+    font-family: PingFang-SC-Medium;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    &__empty {
+      padding-top: 25px;
+    }
+  }
+  // 下注记录
+  &-record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 20px;
+    margin-bottom: 25px;
+    &__subTitle {
+      display: inline-block;
+      background: #fc9b26;
+      border-radius: 0 0 4px 4px;
+      font-family: PingFangSC-Regular;
+      font-size: 18px;
+      color: #ffffff;
+      text-align: center;
+      padding: 8px 20px;
+      margin-bottom: 25px;
+    }
+    &__header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(242, 77, 24, 0.14);
+      span {
+        font-family: PingFangSC-Regular;
+        font-size: 18px;
+        color: #f24d18;
+      }
+    }
+    &__list {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(242, 77, 24, 0.14);
+      span {
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        color: #4d4943;
+        &.time {
+          width: 30%;
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-start;
+          span:last-of-type {
+            margin-top: 5px;
+          }
+        }
+        &.bet {
+          width: 35%;
+          text-align: center;
+          span {
+            &:first-of-type {
+              display: inline-block;
+              width: 35px;
+              text-align: left;
+            }
+            &:last-of-type {
+              display: inline-block;
+              width: 50px;
+              font-family: PingFang-SC-Medium;
+              font-weight: normal;
+              font-size: 16px;
+              color: #ffffff;
+              text-align: center;
+              border-radius: 20px;
+              padding: 2px 0;
+              background: #f14e1a;
+              &.rise {
+                background: #2ec05f;
+              }
+              &.fall {
+                background: #f14e1a;
+              }
+            }
+          }
+        }
+        &.status {
+          width: 35%;
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-end;
+          align-content: center;
+          span:last-of-type {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    &__more {
+      font-family: PingFangSC-Regular;
+      font-size: 18px;
+      color: #59554e;
+      text-align: center;
+      padding-top: 15px;
+    }
+  }
+  // 排行榜
+  &-top {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    // 排行榜
+    &__title {
+      font-family: PingFang-SC-Medium;
+      font-size: 18px;
+      color: #f24d18;
+      text-align: center;
+      padding: 15px 0 10px 0;
+      &::before {
+        position: relative;
+        top: -5px;
+        right: 5px;
+        content: "";
+        display: inline-block;
+        width: 44px;
+        height: 3px;
+        background-image: linear-gradient(90deg, #cf3013 0%, #ffffff 100%);
+        // background-image: linear-gradient(90deg, #f24d18 0%, #ffffff 100%);
+      }
+      &::after {
+        position: relative;
+        top: -5px;
+        left: 5px;
+        content: "";
+        display: inline-block;
+        width: 44px;
+        height: 3px;
+        background-image: linear-gradient(90deg, #cf3013 0%, #ffffff 100%);
+        // background-image: linear-gradient(90deg, #ffffff 0%, #f24d18 100%);
+      }
+    }
+    &__desc {
+      padding: 10px 0 5px 0;
+      font-family: PingFang-SC-Medium;
+      font-size: 14px;
+      color: #fc9b26;
+      text-align: center;
+    }
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      background: url(./images/top@2x.png) no-repeat left top;
+      background-size: contain;
+      padding: 20px 0;
+      div {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33.3333%;
+        &.first {
+          span.avatar {
+            width: 72px;
+            height: 92px;
+            background: url(./images/first@2x.png) no-repeat center;
+            background-size: 72px 92px;
+            img {
+              position: absolute;
+              left: 4px;
+              bottom: 4px;
+              z-index: 8;
+              width: 64px;
+              height: 64px;
+              border-radius: 100%;
+            }
+            i {
+              font-size: 22px;
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              border-radius: 100%;
+              background-image: linear-gradient(96deg, #fddf79 16%, #f9bc44 83%);
+            }
+          }
+        }
+        &.second {
+          span.avatar {
+            width: 52px;
+            height: 63px;
+            background: url(./images/second@2x.png) no-repeat center;
+            background-size: 52px 63px;
+            img {
+              position: absolute;
+              left: 3px;
+              bottom: 3px;
+              z-index: 8;
+              width: 46px;
+              height: 46px;
+              border-radius: 100%;
+            }
+            i {
+              font-size: 15px;
+              width: 22px;
+              height: 22px;
+              line-height: 22px;
+              border-radius: 100%;
+              background-image: linear-gradient(96deg, #fddf79 16%, #f9bc44 83%);
+            }
+          }
+        }
+        &.third {
+          span.avatar {
+            width: 52px;
+            height: 63px;
+            background: url(./images/third@2x.png) no-repeat center;
+            background-size: 52px 63px;
+            img {
+              position: absolute;
+              left: 3px;
+              bottom: 3px;
+              z-index: 8;
+              width: 46px;
+              height: 46px;
+              border-radius: 100%;
+            }
+            i {
+              font-size: 15px;
+              width: 22px;
+              height: 22px;
+              line-height: 22px;
+              border-radius: 100%;
+              background-image: linear-gradient(96deg, #fddf79 16%, #f9bc44 83%);
+            }
+          }
+        }
+        span {
+          &.avatar {
+            position: relative;
+            // border-radius: 100%;
+            background: #eee;
+            display: inline-block;
+            margin-bottom: 15px;
+            i {
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -10px;
+              z-index: 9;
+              text-align: center;
+              font-family: PingFang-SC-Medium;
+              color: #4d4943;
+            }
+          }
+          &.nickName {
+            font-family: PingFang-SC-Medium;
+            font-size: 15px;
+            height: 30px;
+            line-height: 30px;
+            color: #4d4943;
+            padding-bottom: 5px;
+            word-break: keep-all;
+            word-wrap: break-word;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            text-align: center;
+          }
+          &.amount {
+            font-family: PingFang-SC-Medium;
+            font-size: 15px;
+            color: #e83d00;
+          }
+        }
+      }
+    }
+    &__list {
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-top: 1px solid rgba(242, 77, 24, 0.14);
+        span {
+          &.sort {
+            width: 25px;
+            text-align: left;
+            font-family: PingFang-SC-Medium;
+            font-size: 15px;
+            color: #4d4943;
+          }
+          &.avatar {
+            display: inline-flex;
+            width: 50px;
+            text-align: left;
+            position: relative;
+            border-radius: 100%;
+            background: #eee;
+            overflow: hidden;
+            width: 42px;
+            height: 42px;
+            img {
+              width: 42px;
+              height: 42px;
+            }
+          }
+          &.nickName {
+            margin: 0 10px;
+            flex: 1;
+            font-family: PingFang-SC-Medium;
+            font-size: 15px;
+            color: #4d4943;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+          }
+          &.amount {
+            // display: inline-flex;
+            width: 80px;
+            text-align: left;
+            font-family: PingFang-SC-Medium;
+            font-size: 15px;
+            color: #d83f0b;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 弹窗
+.dialog-container {
+  position: relative;
+  width: 260px;
+  background: #fc9b26;
+  border-radius: 10px;
+  padding: 0;
+  // overflow: hidden;
+  // background: url(./images/lottery-bg@2x.png) no-repeat left top;
+  .header {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+    z-index: 3;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f14e1a;
+    box-shadow: 0 2px 4px 0 #af3a14;
+    span {
+      font-family: PingFangSC-Medium;
+      font-size: 16px;
+      color: #ffffff;
+      text-align: center;
+    }
+    &.rise {
+      background: #2ec05f;
+      box-shadow: 0 2px 4px 0 #26924a;
+    }
+    &.fall {
+      background: #f14e1a;
+      box-shadow: 0 2px 4px 0 #af3a14;
+    }
+  }
+  .balance {
+    padding-top: 55px;
+    margin: 0 15px;
+    box-sizing: border-box;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); /*no*/
+  }
+  .amount {
+    margin-top: 12px;
+    padding: 0 15px;
+    p {
+      color: #ffffff;
+      &.select {
+        font-family: PingFangSC-Regular;
+        font-weight: normal;
+        font-size: 16px;
+      }
+      &.item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        span {
+          width: 48px;
+          height: 30px;
+          line-height: 30px;
+          font-family: PingFangSC-Medium;
+          font-size: 16px;
+          color: #ffffff;
+          text-align: center;
+          border: 1px solid #ffffff;
+          border-radius: 2px;
+          background: transparent;
+          box-sizing: border-box;
+          &.active {
+            background: #ffffff;
+            color: #fc9b26;
+          }
+        }
+      }
+      &.right {
+        margin-top: 20px;
+        padding-bottom: 18px;
+        font-family: PingFang-SC-Medium;
+        font-size: 14px;
+        text-align: left;
+        span {
+          font-family: PingFangSC-Semibold;
+          font-weight: bold;
+          font-size: 16px;
+          color: #f14e1a;
+        }
+      }
+    }
+  }
+  // 开奖弹窗
+  &-lottery {
+    .img {
+      position: absolute;
+      left: 0;
+      top: -65px;
+      z-index: 3;
+      width: 260px;
+      height: 130px;
+    }
+    p {
+      color: #ffffff;
+      text-align: center;
+      &.title {
+        padding-top: 70px;
+        font-family: PingFangSC-Medium;
+        font-size: 19px;
+      }
+      &.subTitle {
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        padding-bottom: 35px;
+      }
+    }
+  }
+  &-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    &.lottery {
+      height: 63px;
+      button {
+        width: 153px;
+        height: 33px;
+        font-size: 16px;
+        background-image: linear-gradient(180deg, #fedf19 0%, #fc9b26 100%);
+        border-radius: 16px;
+      }
+    }
+    &.rise,
+    &.fall {
+      height: 79px;
+      button {
+        width: 180px;
+        height: 48px;
+        font-size: 20px;
+        background-image: linear-gradient(180deg, #fedf19 0%, #fc9b26 100%);
+        border-radius: 4px;
+      }
+    }
+    button {
+      font-family: PingFang-SC-Medium;
+      color: #ffffff;
+      text-align: center;
+      border: none;
+    }
+  }
+}

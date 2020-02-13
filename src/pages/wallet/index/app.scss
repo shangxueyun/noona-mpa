@@ -1,0 +1,203 @@
+.main-container{
+  font-family: PingFang-SC-Medium;
+}
+.wallet-container{
+  .glod-box{
+    min-height: 128px;
+    margin-bottom: 22px;
+    background: #EE4C4C;
+    position: relative;
+    .money{
+      width: 100%;
+      nav{
+        width: 100%;
+        li{
+          list-style: none;
+          float: left;
+          width: 50%;
+          height: 100px;
+          padding: 28px 0px 26px;
+          .text{
+            text-align: left;
+            line-height: 20px;
+            font-size: 14px;
+            color: #FFFFFF;
+            width: 82%;
+            display: block;
+            margin: 0 auto;
+          }
+          .number{
+            text-align: left;
+            line-height: 26px;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            width: 82%;
+            margin: 0 auto;
+          }
+        }
+        li:last-child .text{
+          width: 57%;
+          text-align: left;
+          margin: 0 16px 0 auto;
+        }
+        li:last-child .number{
+          width: 57%;
+          text-align: left;
+          margin: 0 16px 0 auto;
+        }
+      }
+    }
+    .button{
+      width: 100%;
+      position: absolute;
+      height: 42px;
+      bottom: calc((-1.2rem * 2) / 5.2);
+      .centent{
+        width: 93%;
+        margin: 0 auto;
+        height: 42px;
+        border-radius: 24px;
+        background: #fff;
+        box-shadow: 0px 2px 4px #E4E4E4;
+        nav{
+          width: 100%;
+          padding: 0 24px;
+          li{
+            list-style: none;
+            width: 34%;
+            font-size: 16px;
+            color: #555555;
+            line-height: 42px;
+            margin: 0 auto;
+            .centent_div{
+              width: 93%;
+              margin: 0 auto;
+            }
+            .cash{
+              display: inline-table;
+              width: 24px;
+              height: 20px;
+              margin-right: 14px;
+              margin: 12px 10px 0 0;
+              background: url(./images/cash.png) no-repeat;
+              background-size: 100%;
+              float: left;
+            }
+            .Top{
+              display: inline-table;
+              width: 20px;
+              height: 24px;
+              margin-right: 14px;
+              margin: 10px 10px 6px 0;
+              background: url(./images/Top.png) no-repeat;
+              background-size: 100% 100%;
+              float: left;
+            }
+            .wire{
+              display: inline-table;
+              width: 1px;
+              height: 26px;
+              margin: 8px 0;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background: #EFEFEF;
+            }
+          }
+        }
+      }
+    }
+    .btn-link{
+      color: #fff;
+      // font-family: PingFang-SC-Medium;
+      font-size: 14px;
+      color: #E14242;
+      line-height: 1;
+      background: #FFFFFF;
+      border-radius: 18px;
+      padding: 6px 15px;
+      display: block;
+    }
+    .exchange-rate{
+      background: rgba(0,0,0,0.10);
+      // font-family: PingFang-SC-Bold;
+      line-height: 30px;
+      font-size: 14px;
+      color: #FEFEFF;
+      padding: 0 15px;
+      span{
+        padding-left: 18px;
+      }
+    }
+  }
+  .detail-box{
+    background: #FFFFFF;
+    padding:15px 30px;
+    border-radius: 6px;
+    .title{
+      // font-family: PingFang-SC-Bold;
+      font-size: 18px;
+      line-height: 1;
+      padding: 3px 0;
+      color: #262628;
+      font-weight: 600;
+    }
+    .list{
+      box-sizing: border-box;
+      .item{
+        // font-family: PingFang-SC-Bold;
+        padding: 8px 0 6px;
+        &-title{
+          font-size: 15px;
+          line-height: 1.2;
+          color: #646466;
+          font-weight: 500;
+        }
+        &-date{
+          font-size: 12px;
+          line-height: 1.5;
+          color: #9999A1;
+        }
+        &-count{
+          font-size: 15px;
+          color: #6B6B6D;
+          &.subtract{
+            color: #9999A1;
+          }
+        }
+      }
+    }
+    .empty{
+      text-align: center;
+      margin: 114px 36px 0;
+      // padding: 0 15px;
+      // font-family: PingFang-SC-Bold;
+      font-size: 16px;
+      color: #9999A1;
+      text-align: center;
+      .check-btn{
+        border: 1Px solid #E04141;
+        border-radius: 18px;
+        // font-family: PingFang-SC-Bold;
+        font-size: 16px;
+        color: #E04141;
+        text-align: center;
+        padding: 7px 0;
+        display: block;
+        width: 120px;
+        text-align: center;
+        margin: 15px auto 0;
+      }
+    }
+    .bottom-tip{
+      width: 100%;
+      height: 30px;
+      color: #9999A1;
+      line-height: 30px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
+  

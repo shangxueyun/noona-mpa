@@ -1,0 +1,120 @@
+.commodity-container {
+  min-height: 100vh;
+  position: relative;
+  &-swiper {
+    width: 100vw;
+    position: relative;
+    background: #fff;
+    .swiper-img-div{
+      height: 3.4rem;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+      bottom: 0;
+    }
+  }
+  &-content {
+    width: 100vw;
+    height: auto;
+    padding: .25rem;
+    padding-bottom: 2.32rem;
+    .listTile{
+      line-height: 40px;
+      font-size: .38rem;
+      color: #333;
+    }
+    .listTile:before{
+      content: '|';
+      background: #E04141;
+      left: 11px;
+      font-size: 0.3rem;
+      margin-right: .2rem;
+      color: transparent;
+    }
+    &-titleInfo{
+      font-size: .4rem;
+      padding-top: .2rem;
+      height: auto;
+      max-height: 1.56rem;
+      padding-bottom: 6px;
+      word-wrap: break-word;
+      text-overflow: -o-ellipsis-lastline;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;  
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+    &-listTile{
+      font-size: .26rem;
+      word-wrap: break-word;
+      text-align: justify;
+      color: #4e4e4e;
+      padding-bottom: 6px;
+    }
+    &-navLi{
+      width: 100%;
+      padding: .1rem 0;
+      li{
+        list-style: none;
+        font-size: .26rem;
+        word-wrap: break-word;
+        text-align: justify;
+        color: #7e7e7e;
+        line-height: 0.36rem;
+        padding-left: .3rem;
+      }
+      li:before{
+        content: '';
+        position: absolute;
+        width: 0.12rem;
+        height: 0.12rem;
+        background: #7e7e7e;
+        margin: .12rem 0rem .1rem -.3rem;
+        border-radius: 0.06rem;
+      }
+    }
+    &-money{
+      font-size: .36rem;
+      word-wrap: break-word;
+      text-align: justify;
+      color: #FF0000;
+      padding: .1rem 0;
+    }
+    &-border{
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #F4F4F4;
+      margin: .3rem 0;
+    }
+  }
+  &-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: .6rem;
+    background: #fff;
+    .storage_color{
+      background: rgba(0, 0, 0, 0.25) !important;
+    }
+    &-button{
+      font-size: .36rem;
+      text-align: center;
+      background: #E04141;
+      line-height: .96rem;
+      color: #fff;
+      border-radius: .12rem;
+    }
+  }
+  .swiper-pagination-bullet{
+    background: transparent;
+    border: 1px solid #fff;
+    width: .2rem;
+    opacity: 1;
+    height: .2rem;
+  }
+  .swiper-pagination-bullet-active{
+    background: #fff;
+  }
+}

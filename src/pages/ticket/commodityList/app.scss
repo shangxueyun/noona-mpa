@@ -1,0 +1,104 @@
+.commodityList-container {
+  min-height: 100vh;
+  position: relative;
+  background: #F4F4F4;
+  &-switchHead{
+    width: 100%;
+    padding: .3rem .3rem;
+    background: #E04141;
+    li{
+      list-style: none;
+      font-size: .34rem;
+      float: left;
+      width: 50%;
+      text-align: center;
+      a{
+        color: rgba(255, 255, 255, .6);
+      }
+    }
+    .activate{
+      color: #fff;
+      padding-bottom: .1rem;
+      border-bottom: 2px solid #fff;
+    }
+  }
+  &-listModel{
+    width: 100%;
+    padding: 0 .3rem;
+    .listModel-top{
+      width: 100%;
+      background: url(./images/bj@2x.png) no-repeat;
+      background-size: 100% 100%;
+      border-radius: 0.08rem;
+      background-position-y: 4px;
+      margin-top: 4px;
+      .remark{
+        font-size: .19rem;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 5px .2rem;
+        color: #838383;
+        line-height: .26rem;
+      }
+    }
+    .listModel-top:first-child{
+      margin-top: 5px;
+    }
+    .bottom{
+      font-size: .3rem;
+      color: #888888;
+      text-align: center;
+      line-height: 28px;
+    }
+    .xian{
+      clear: both;
+      display: block;
+      width: 98%;
+      height: 0px;
+      border-top: 1px dashed rgba(0, 0, 0, 0.1);
+      margin: 0 auto;
+    }
+    .listModel{
+      width: 100%;
+      padding: .3rem .5rem 0;
+      .show-img{
+        float: left;
+        width: 1.52rem;
+        height: 1.52rem;
+        padding-bottom: 2px;
+        margin-bottom: 4px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .show-text{
+        width: calc(100% - 2rem);
+        float: right;
+        div{
+          width: 100%;
+          font-size: .30rem;
+          height: 34px;
+          margin: 6px 0;
+          color: #262628;
+          word-wrap: break-word;
+          text-overflow: -o-ellipsis-lastline;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;  
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+        p{
+          width: 100%;
+          font-size: .32rem;
+          line-height: 0.56rem;
+          color: #E04141;
+        }
+      }      
+    }
+  }
+}

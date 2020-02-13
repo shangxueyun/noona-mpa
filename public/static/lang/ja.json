@@ -1,0 +1,123 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "日语",
+  "data": {
+    "seo": {
+      "title": "Noona、ここで志を同じくする人々と出会う",
+      "keywords": "コミュニティ",
+      "description": "ここで同じような人と出会おう。",
+      "descriptions": "Noonaは、トピックを交換したり、自分自身を見せたり、友達を作ったりするための場所です。 毎日何万人もの人がここに集まっていますあなたがどこにいても、あなたの趣味は何であれ、あなたはあなたと同じくらい特別な人たちを見つけることができます。"
+    },
+    "load": {
+      "loading": "読み込み中...",
+      "loadRetry": "読み込みに失敗しました、をクリックしてもう一度お試しください"
+    },
+    "task": {
+      "center": {
+        "title": "体力センター",
+        "NativeNavSubTitle": "招請番号入力",
+        "inviteFriendsShareTitle": "Noonaに来て、体力を得るのを助けてください。",
+        "inviteFriendsShareDesc": "Noonaは、トピックを交換したり、自分自身を見せたり、友達を作ったりするための場所です。",
+        "subTitle": "任務を終えて体力を獲得",
+        "strengthFull": "体力満量",
+        "strengthCountDown": "後に体力は完全に回復できる",
+        "strengthTitle": "体力説明",
+        "strengthSubTitle1": "体力獲得",
+        "strengthGet1": "任務を獲得",
+        "strengthGet2": "一時間毎に自動回復、体力に10を上げる",
+        "strengthGet3": "初回登録成長すると、体力に10を上げ、体力上限に10を上げる",
+        "strengthSubTitle2": "体力消耗",
+        "strengthUse1": "ビデオを再生すると、体力は1を下げる",
+        "strengthUse2": "ビデオをダウンロードすると、体力は2を下げる",
+        "strengthMark": "注：体力データ更新は遅れる時がある",
+        "inviteTitle1": "友人の招請番号入力",
+        "inviteTitle2": "彼の体力獲得へサポート",
+        "inviteInput": "招請番号入力",
+        "inviteInputError": "招請番号無効！",
+        "inviteInputAlready": "あなたは既に招請番号を入力しました!",
+        "inviteInputSuccess": "招請検証は成功しました!",
+        "inviteInputSuccessTips1": "友人を招請すると、体力を獲得。",
+        "inviteInputSuccessTips2": "すぐに友人を招請。",
+        "inviteBtnWant": "私は招請したい",
+        "inviteBtn": "確認",
+        "copyRight": "最終的な解釈はNoonaが所有しています。."
+      }
+    },
+    "wallet": {
+      "index": {
+        "title": "財布",
+        "NativeNavSubTitle": "ヘルプセンター",
+        "currentIncome": "当期収益",
+        "historyIncome": "過去収益合計",
+        "recentIncomeRecord": "最近収益記録",
+        "transactionRecord": "取引記録",
+        "noRecord": "あなたはまだ収益記録がありません、速くビデオを発表して下さい。"
+      },
+      "transaction" : {
+        "title": "取引記録",
+        "noRecord": "取取引記録はありません~"
+      }
+    },
+    "invite": {
+      "title": "My Invitation",
+      "NativeNavSubTitle": "Enter code",
+      "listTitle": "List of invites",
+      "notInvitedTxt": "Not invited friends yet",
+      "noMoreTxt": "No more",
+      "popupTitle": "Enter invitation code",
+      "popupPlaceHolder": "Enter invitation code",
+      "popupInputError": "Invalid!",
+      "popupBtn": "確認する",
+      "popupTips1": "申し訳ありませんが、友達のチームはいっぱいで、もう参加できません。",
+      "popupTipsBtn1": "私は知っている",
+      "popupTips2": "チームの成功！ {group}のシニアメンバーになっておめでとう、そしてこのグループのコンテンツを楽しむことができます！",
+      "popupTipsBtn2": "見る",
+      "popupTips3": "チームの成功！ まだ貧弱な{num}人のパートナーチームはいっぱいです。辛抱強く待ってください！"
+    },
+    "friend": {
+      "title": "邀请好友",
+      "shareBtnTxt": "邀请好友",
+      "myInviteCodeTxt": "我的邀请码",
+      "copyInviteCodeTxt": "复制",
+      "myInviteList": "我邀请的好友",
+      "copySuccess": "复制成功",
+      "copyError": "复制失败，请长按手动复制",
+      "emptyTxt": "暂无好友",
+      "share": {
+        "title": "推荐使用inspub",
+        "desc": "新奇内容应有尽有，私密小组精彩绝伦"
+      }
+    },
+    "gold": {
+      "title": "我的金币",
+      "goldTitle": "当前金币",
+      "emptyTxt": "暂无记录",
+      "NativeNavSubTitle": "如何赚金币？"
+    },
+    "goldHelp": {
+      "title": "如何赚金币",
+      "helpTitle": "如何赚金币",
+      "list": [
+        "新用户使用APP，注册成功后获得1000金币；",
+        "邀请好友，每邀请1个好友获得500金币；",
+        "创建小组，获得小组每日收入的5%；",
+        "发布内容，被播放后获得小组分成；",
+        "发布私密内容，被解锁后获得小组分成+内容支付分成（100金币可得50金币）+被播放后获得小组分成；",
+        "签到，获得小组分成；"
+      ]
+    },
+    "inviteCode": {
+      "title": "输入邀请码",
+      "inviteTitle": "填写邀请码领红包",
+      "codePlaceholder": "输入邀请码",
+      "codeTip": "请输入正确的邀请码",
+      "btnTxt": "拆红包",
+      "tip":"向您的好友/推荐人询问邀请码",
+      "bindSuccessTip": "邀请码绑定成功",
+      "goldTxt": "金币",
+      "backBtnTxt": "返回",
+      "moreBtnTxt": "更多赚钱方法"
+    }
+  }
+}

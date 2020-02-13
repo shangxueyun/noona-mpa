@@ -1,0 +1,123 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "繁体-中文",
+  "data": {
+    "seo": {
+      "title": "Noona，在這裡遇到志趣相投的人",
+      "keywords": "社區",
+      "description": "在這裡遇到志趣相投的人",
+      "descriptions": "Noona是一個交流話題、展示自我、結交朋友的地方。每天都有數千萬人匯聚在這裡，無論你來自哪裡，有什麼興趣愛好，都能在這裡找到和你一樣特別的人。"
+    },
+    "load": {
+      "loading": "加載中...",
+      "loadRetry": "加載失敗，點擊重試"
+    },
+    "task": {
+      "center": {
+        "title": "體力中心",
+        "NativeNavSubTitle": "填寫邀請碼",
+        "inviteFriendsShareTitle": "快来Noona，助我得體力吧",
+        "inviteFriendsShareDesc": "Noona是一個交流話題、展示自我、結交朋友的地方",
+        "subTitle": "做任務 得體力",
+        "strengthFull": "體力已滿",
+        "strengthCountDown": "後體力可完全恢復",
+        "strengthTitle": "體力說明",
+        "strengthSubTitle1": "體力獲得",
+        "strengthGet1": "做任務獲得",
+        "strengthGet2": "每小時自動恢復，體力+10",
+        "strengthGet3": "首次註冊登錄，體力+10，體力上限+10",
+        "strengthSubTitle2": "體力消耗",
+        "strengthUse1": "觀看視頻，體力-1",
+        "strengthUse2": "下載視頻，體力-2",
+        "strengthMark": "注：體力數據的更新可能會有延遲",
+        "inviteTitle1": "輸入好友邀請碼",
+        "inviteTitle2": "助Ta得體力!",
+        "inviteInput": "輸入邀請碼",
+        "inviteInputError": "邀請碼無效！",
+        "inviteInputAlready": "你已填過邀請碼!",
+        "inviteInputSuccess": "邀請碼驗證成功!",
+        "inviteInputSuccessTips1": "邀請好友得體力",
+        "inviteInputSuccessTips2": "趕快邀請好友吧",
+        "inviteBtnWant": "我要邀請",
+        "inviteBtn": "確認",
+        "copyRight": "最終解釋權歸 Noona 所有."
+      }
+    },
+    "wallet": {
+      "index": {
+        "title": "錢包",
+        "NativeNavSubTitle": "幫助中心",
+        "currentIncome": "本期收益(LuckyCion)",
+        "historyIncome": "歷史總收益(LuckyCion)",
+        "recentIncomeRecord": "近期收益記錄",
+        "transactionRecord": "交易記錄",
+        "noRecord": "你還沒有收益記錄哦，趕緊去發布視頻吧"
+      },
+      "transaction": {
+        "title": "交易記錄",
+        "noRecord": "暫無交易記錄~"
+      }
+    },
+    "invite": {
+      "title": "我的邀請",
+      "NativeNavSubTitle": "輸入邀請碼",
+      "listTitle": "邀請列表",
+      "notInvitedTxt": "還沒有邀請的好友",
+      "noMoreTxt": "沒有更多了",
+      "popupTitle": "輸入邀請碼",
+      "popupPlaceHolder": "輸入邀請碼",
+      "popupInputError": "邀請碼無效!",
+      "popupBtn": "確認",
+      "popupTips1": "抱歉，你的好友的組隊已經滿了，不能再加入了",
+      "popupTipsBtn1": "知道了",
+      "popupTips2": "組隊成功！恭喜成為{group}的高級成員，本小組內容可盡情暢遊啦！",
+      "popupTipsBtn2": "查看",
+      "popupTips3": "組隊成功！還差{num}個夥伴組隊就滿了，耐心等待吧！"
+    },
+    "friend": {
+      "title": "邀請好友",
+      "shareBtnTxt": "邀請好友",
+      "myInviteCodeTxt": "我的邀請碼",
+      "copyInviteCodeTxt": "複製",
+      "myInviteList": "我邀請的好友",
+      "copySuccess": "複製成功",
+      "copyError": "複製失敗，請長按手動複製",
+      "emptyTxt": "暫無好友",
+      "share": {
+        "title": "推薦使用inspub",
+        "desc": "新奇內容應有盡有，私密小組精彩絕倫"
+      }
+    },
+    "gold": {
+      "title": "金幣",
+      "goldTitle": "當前金幣",
+      "emptyTxt": "暫無記錄",
+      "NativeNavSubTitle": "如何賺金幣？"
+    },
+    "goldHelp": {
+      "title": "賺金幣",
+      "helpTitle": "如何賺金幣",
+      "list": [
+        "新用戶使用APP，註冊成功後獲得1000金幣；",
+        "邀請好友，每邀請1個好友獲得500金幣；",
+        "創建小組，獲得小組每日收入的5%；",
+        "發佈內容，被播放後獲得小組分成；",
+        "發布私密內容，被解鎖後獲得小組分成+內容支付分成（100金幣可得50金幣）+被播放後獲得小組分成；",
+        "簽到，獲得小組分成；"
+      ]
+    },
+    "inviteCode": {
+      "title": "輸入邀請碼",
+      "inviteTitle": "填寫邀請碼領紅包",
+      "codePlaceholder": "輸入邀請碼",
+      "codeTip": "請輸入正確的邀請碼",
+      "btnTxt": "拆紅包",
+      "tip": "向您的好友/推薦人詢問邀請碼",
+      "bindSuccessTip": "邀請碼綁定成功",
+      "goldTxt": "金幣",
+      "backBtnTxt": "返回",
+      "moreBtnTxt": "更多賺錢方法"
+    }
+  }
+}

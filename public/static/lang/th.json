@@ -1,0 +1,123 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "泰语",
+  "data": {
+    "seo": {
+      "title": "Noona พบปะผู้คนที่มีความสนใจคล้ายกันที่นี่่",
+      "keywords": "ชุมชน",
+      "description": "พบผู้คนที่มีใจที่นี่",
+      "descriptions": "Noona - เป็นสถานที่แลกเปลี่ยนหัวข้อแสดงตัวและเป็นเพื่อนกัน มีคนหลายหมื่นคนรวมตัวกันที่นี่ทุกวันไม่ว่าคุณจะอยู่ที่ไหนงานอดิเรกของคุณคืออะไร"
+    },
+    "load": {
+      "loading": "กำลังโหลด...",
+      "loadRetry": "ไม่สามารถโหลดคลิกเพื่อลองอีกครั้ง"
+    },
+    "task": {
+      "center": {
+        "title": "ศูนย์พลัง",
+        "NativeNavSubTitle": "กรอกรหัสเชิญ",
+        "inviteFriendsShareTitle": "มาที่ Noona ช่วยให้ฉันมีกำลังกาย",
+        "inviteFriendsShareDesc": "Noona เป็นสถานที่แลกเปลี่ยนหัวข้อแสดงตัวและทำความรู้จักกับเพื่อน",
+        "subTitle": "ทำภารกิจ ได้รับพลัง",
+        "strengthFull": "พลังเต็มแล้ว",
+        "strengthCountDown": "พลังสามารถเติมเต็มด้หลัง",
+        "strengthTitle": "คำอธิบายทางกายภาพ",
+        "strengthSubTitle1": "รับพลัง",
+        "strengthGet1": "ทำภารกิจ ได้รับพลัง",
+        "strengthGet2": "จะเติมเต็มพลังทุกชั่วโมงโดยอัตโนมัติ จะเพิ่มพลัง 10 หน่วย",
+        "strengthGet3": "การลงทะเบียนและเข้าระบบสำเร็จครั้งแรกจะเพิ่มพลัง 10 หน่วย และขีดจำกัดพลังสูงสุดจะเพิ่ม 10 ",
+        "strengthSubTitle2": "การใช้พลัง",
+        "strengthUse1": "ดูวิดีโอ ใช้พลัง 1 หน่วย",
+        "strengthUse2": "ดาวน์โหลดวิดีโอ ใช้พลัง 2 หน่วย",
+        "strengthMark": "หมายเหตุ การอัพเดทข้อมูลพลังอาจมีการล่าช้า",
+        "inviteTitle1": "ป้อนรหัสเชิญ",
+        "inviteTitle2": "เชิญคุณไปช้วย Ta รับกำลัง!",
+        "inviteInput": "ป้อนรหัสเชิญ",
+        "inviteInputError": "รหัสเชิญไม่ถูกต้อง！",
+        "inviteInputAlready": "คุณได้กรอกรหัสเชิญแล้ว!",
+        "inviteInputSuccess": "ยืนยันรหัสเชิญสำเร็จ!",
+        "inviteInputSuccessTips1": "เชิญเพื่อนเพื่อรับพลัง",
+        "inviteInputSuccessTips2": "จ้างเพื่อนเร็ว ๆ นี้",
+        "inviteBtnWant": "ฉันต้องการเชิญ",
+        "inviteBtn": "ยืนยัน",
+        "copyRight": "การตีความขั้นสุดท้ายที่ถูกต้องเป็นของ Noona ทั้งหมด"
+      }
+    },
+    "wallet": {
+      "index": {
+        "title": "กระเป๋าสตางค์",
+        "NativeNavSubTitle": "ศูนย์ช่วยเหลือ ",
+        "currentIncome": "รายได้ช่วงนี้",
+        "historyIncome": "รายได้รวม",
+        "recentIncomeRecord": "บันทึกรายได้ช่วงนี้",
+        "transactionRecord": "บันทึกการซื้อ",
+        "noRecord": "คุณยังไม่มีบันทึกรายได้ รีบไปโพสต์วิดีโอนะ"
+      },
+      "transaction" : {
+        "title": "บันทึกการซื้อ",
+        "noRecord": "ไม่มีประวัติการทำธุรกรรม~"
+      }
+    },
+    "invite": {
+      "title": "My Invitation",
+      "NativeNavSubTitle": "Enter code",
+      "listTitle": "List of invites",
+      "notInvitedTxt": "Not invited friends yet",
+      "noMoreTxt": "No more",
+      "popupTitle": "Enter invitation code",
+      "popupPlaceHolder": "Enter invitation code",
+      "popupInputError": "Invalid!",
+      "popupBtn": "ยืนยัน",
+      "popupTips1": "ขออภัยเพื่อนของคุณเต็มแล้วและไม่สามารถเข้าร่วมได้อีกต่อไป",
+      "popupTipsBtn1": "ฉันรู้",
+      "popupTips2": "ความสำเร็จของทีม! ขอแสดงความยินดีกับการเป็นสมาชิกอาวุโสของ {group} และสามารถเพลิดเพลินกับเนื้อหาของกลุ่มนี้ได้!",
+      "popupTipsBtn2": "ดู",
+      "popupTips3": "ความสำเร็จของทีม! ทีมพาร์ทเนอร์ {num} ยังคงไม่ดีเต็มไปด้วยความอดทนรอ!"
+    },
+    "friend": {
+      "title": "邀请好友",
+      "shareBtnTxt": "邀请好友",
+      "myInviteCodeTxt": "我的邀请码",
+      "copyInviteCodeTxt": "复制",
+      "myInviteList": "我邀请的好友",
+      "copySuccess": "复制成功",
+      "copyError": "复制失败，请长按手动复制",
+      "emptyTxt": "暂无好友",
+      "share": {
+        "title": "推荐使用inspub",
+        "desc": "新奇内容应有尽有，私密小组精彩绝伦"
+      }
+    },
+    "gold": {
+      "title": "我的金币",
+      "goldTitle": "当前金币",
+      "emptyTxt": "暂无记录",
+      "NativeNavSubTitle": "如何赚金币？"
+    },
+    "goldHelp": {
+      "title": "如何赚金币",
+      "helpTitle": "如何赚金币",
+      "list": [
+        "新用户使用APP，注册成功后获得1000金币；",
+        "邀请好友，每邀请1个好友获得500金币；",
+        "创建小组，获得小组每日收入的5%；",
+        "发布内容，被播放后获得小组分成；",
+        "发布私密内容，被解锁后获得小组分成+内容支付分成（100金币可得50金币）+被播放后获得小组分成；",
+        "签到，获得小组分成；"
+      ]
+    },
+    "inviteCode": {
+      "title": "输入邀请码",
+      "inviteTitle": "填写邀请码领红包",
+      "codePlaceholder": "输入邀请码",
+      "codeTip": "请输入正确的邀请码",
+      "btnTxt": "拆红包",
+      "tip":"向您的好友/推荐人询问邀请码",
+      "bindSuccessTip": "邀请码绑定成功",
+      "goldTxt": "金币",
+      "backBtnTxt": "返回",
+      "moreBtnTxt": "更多赚钱方法"
+    }
+  }
+}

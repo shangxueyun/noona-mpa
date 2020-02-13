@@ -1,0 +1,123 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "马来语",
+  "data": {
+    "seo": {
+      "title": "Noona, di sini bertemu orang yang berfikiran sama",
+      "keywords": "Komuniti",
+      "description": "Bertemu dengan orang yang berpikiran seperti ini.",
+      "descriptions": "Noona - adalah tempat untuk menukar topik, tunjukkan diri anda, dan berteman. Beribu-ribu orang berkumpul di sini setiap hari. Tidak kira di mana anda berada, apa hobi anda, anda boleh mencari orang yang istimewa seperti anda."
+    },
+    "load": {
+      "loading": "Memuatkan...",
+      "loadRetry": "Gagal memuatkan, klik untuk cuba lagi"
+    },
+    "task": {
+      "center": {
+        "title": "Pusat Tenaga",
+        "NativeNavSubTitle": "Masukkan kod jemputan",
+        "inviteFriendsShareTitle": "Datang ke Noona, bantu saya mendapatkan kekuatan fizikal.",
+        "inviteFriendsShareDesc": "Noona adalah tempat untuk menukar topik, tunjukkan diri anda, dan berteman.",
+        "subTitle": "Lakukan tugas ini untuk dapatkan tenaga",
+        "strengthFull": "Tenaga sudah penuh",
+        "strengthCountDown": "Tenaga akan dipulihkan sepenuhnya selepas",
+        "strengthTitle": "Kekuatan fizikal terangkan",
+        "strengthSubTitle1": "Tenaga didapatkan",
+        "strengthGet1": "Lakukan tugas didapatkan",
+        "strengthGet2": "Tenaga akan tambah 10 secara automatik pada setiap jam",
+        "strengthGet3": "Apabila berjaya berdaftar pada pertama kalinya, tanaga akan tamba 10, had tenaga akan tambah 10",
+        "strengthSubTitle2": "Tenaga digunakan",
+        "strengthUse1": "Apabila tonton video, tenaga dikurangkan 1 ",
+        "strengthUse2": "Apabila muat turun video, tenaga dikurangkan 2",
+        "strengthMark": "Nota: Kemas kini data tenaga mungkin ada kelewatan",
+        "inviteTitle1": "Masukkan kod jemputan",
+        "inviteTitle2": "untuk membantu dia dapatkan tenaga!",
+        "inviteInput": "Masukkan kod jemputan",
+        "inviteInputError": "Kod jemputan tidak sah！",
+        "inviteInputAlready": "Anda telah masukkan kod jemputan!",
+        "inviteInputSuccess": "Pengesahan kod jemputan berjaya!",
+        "inviteInputSuccessTips1": "Jemput rakan untuk dapatkan tenaga",
+        "inviteInputSuccessTips2": "marilah jemput rakan untuk",
+        "inviteBtnWant": "Saya nak jemput juga",
+        "inviteBtn": "Sahkan",
+        "copyRight": "Hak tafsiran terakhir dimiliki oleh Noona semua."
+      }
+    },
+    "wallet": {
+      "index": {
+        "title": "Wallet",
+        "NativeNavSubTitle": "Pusat Bantuan",
+        "currentIncome": "Pendapatan semasa",
+        "historyIncome": "Jumlah pendapatan",
+        "recentIncomeRecord": "Rekod pendapatan terkini",
+        "transactionRecord": "Rekod transaksi",
+        "noRecord": "Anda belum ada rekod pendapatan, marilah siarkan video."
+      },
+      "transaction" : {
+        "title": "Rekod transaksi",
+        "noRecord": "Belum rekod transaksi~"
+      }
+    },
+    "invite": {
+      "title": "My Invitation",
+      "NativeNavSubTitle": "Enter code",
+      "listTitle": "List of invites",
+      "notInvitedTxt": "Not invited friends yet",
+      "noMoreTxt": "No more",
+      "popupTitle": "Enter invitation code",
+      "popupPlaceHolder": "Enter invitation code",
+      "popupInputError": "Invalid!",
+      "popupBtn": "Sahkan",
+      "popupTips1": "Maaf, pasukan kawan anda penuh dan tidak boleh menyertai lagi.",
+      "popupTipsBtn1": "Saya tahu",
+      "popupTips2": "Kejayaan pasukan! Tahniah menjadi ahli kanan {group}, dan kandungan kumpulan ini boleh dinikmati!",
+      "popupTipsBtn2": "Lihat",
+      "popupTips3": "Kejayaan pasukan! Pasukan miskin {num} masih penuh, tunggu dengan sabar!"
+    },
+    "friend": {
+      "title": "邀请好友",
+      "shareBtnTxt": "邀请好友",
+      "myInviteCodeTxt": "我的邀请码",
+      "copyInviteCodeTxt": "复制",
+      "myInviteList": "我邀请的好友",
+      "copySuccess": "复制成功",
+      "copyError": "复制失败，请长按手动复制",
+      "emptyTxt": "暂无好友",
+      "share": {
+        "title": "推荐使用inspub",
+        "desc": "新奇内容应有尽有，私密小组精彩绝伦"
+      }
+    },
+    "gold": {
+      "title": "我的金币",
+      "goldTitle": "当前金币",
+      "emptyTxt": "暂无记录",
+      "NativeNavSubTitle": "如何赚金币？"
+    },
+    "goldHelp": {
+      "title": "如何赚金币",
+      "helpTitle": "如何赚金币",
+      "list": [
+        "新用户使用APP，注册成功后获得1000金币；",
+        "邀请好友，每邀请1个好友获得500金币；",
+        "创建小组，获得小组每日收入的5%；",
+        "发布内容，被播放后获得小组分成；",
+        "发布私密内容，被解锁后获得小组分成+内容支付分成（100金币可得50金币）+被播放后获得小组分成；",
+        "签到，获得小组分成；"
+      ]
+    },
+    "inviteCode": {
+      "title": "输入邀请码",
+      "inviteTitle": "填写邀请码领红包",
+      "codePlaceholder": "输入邀请码",
+      "codeTip": "请输入正确的邀请码",
+      "btnTxt": "拆红包",
+      "tip":"向您的好友/推荐人询问邀请码",
+      "bindSuccessTip": "邀请码绑定成功",
+      "goldTxt": "金币",
+      "backBtnTxt": "返回",
+      "moreBtnTxt": "更多赚钱方法"
+    }
+  }
+}

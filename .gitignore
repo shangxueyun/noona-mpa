@@ -1,0 +1,35 @@
+# Editor directories and files
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# local env files
+.env.local
+.env.*.local
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Nuxt build
+.nuxt
+
+# Vue build
+dist
+dist-test
+dist-prod
+
+# other
+oss-upload
+ossutil_output
+#Makefile
+output.js

@@ -1,0 +1,185 @@
+// .main-container{
+
+// }
+.rank-container{
+  font-family: PingFang-SC-Medium;
+  
+  .tab-box{position: absolute; bottom: 20px; left: 50%; margin-left: -109px;  overflow: hidden;}
+  .type-tab{
+    position: relative;
+    width: 100%;
+    height: 168px;
+    // align-items: center;
+    // justify-content: center;
+    background: url(./images/bg1.png) center center no-repeat;
+    background-size: cover;
+    .tab:first-child
+      { 
+        border-radius: 14.5px 0 0 14.5px;
+      }
+    .tab:last-child
+    { 
+      border-radius: 0 14.5px 14.5px 0;
+    }
+    .tab{
+      //padding: 12px 12px 9px;
+      // font-family: PingFang-SC-Medium;
+      // font-size: 14px;
+      // color: #fff;
+      // text-align: center;
+      // line-height: 16px;
+      // margin: 0 12px;
+     // cursor: pointer;
+     // border-bottom: 3px solid  transparent;
+      
+      width: 109px;
+      height: 29px;
+      float: left;
+      line-height: 29px;
+      // border: 1px solid #fff;
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      // border-radius: 0 14.5px 14.5px 0;
+      &.cur{
+        // font-family: PingFang-SC-Bold;
+        // border-color: #FF4F4F;
+        font-weight: bold;
+        color: #FF4F4F;
+        background-color: #fff;
+        // border-radius: 14.5px 0 0 14.5px;
+      }
+    }
+  }
+  .rank-list{
+    padding-bottom: 30px;
+    // font-family: PingFang-SC-Bold;
+    font-size: 14px;
+    color: #262628;
+    .rank-item{
+      width:94%;
+      margin: 0 auto;
+      padding: 9px 20px;
+      position: relative;
+      align-items: center;
+      box-shadow: 0 2px 4px 0 #E4E4E4;
+      border-radius: 9px;
+      // &:after{
+      //   @include setBottomLine( #ECECEC);
+      // }
+      &__no{
+        font-size: 12px;
+        color: #010101;
+        text-align: center;
+        line-height: 17px;
+        margin-right: 12px;
+        span{
+          font-size: 20px;
+          text-align: center;
+          line-height: 28px;
+        }
+      }
+      &__photo{
+        width: 42px;
+        height: 42px;
+        border: 1PX solid transparent;
+        border-radius: 50%;
+        background: #F2F3F4;
+        margin-right: 6px;
+        position: relative;
+        img{
+          display: block;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+        i{
+          display: none;
+          position: absolute;
+          top: -6px;
+          left: -6px;
+          width: 15px;
+          height: 17px;
+          background-size:15px 17px;
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+        &.top1,&.top2, &.top3 {
+          i {
+            display: block;
+          }
+        }
+        &.top1{
+          border-color: #FCD85F;
+          i{background-image: url(./images/top1.png);}
+        }
+        &.top2{
+          border-color: #A8F1FD;;
+          i{background-image: url(./images/top2.png);}
+        }
+        &.top3{
+          border-color:#C28E53;
+          i{background-image: url(./images/top3.png);}
+        }
+      }
+      // &__nick{
+      //   .no{
+      //     font-size: 12px;
+      //     color: #F5A623;
+      //   }
+      // }
+      &__nick{
+        font-size: 15px;
+        color: #262628;
+      }
+      &__count{
+        font-size: 13px;
+        color: #9999A1;
+      }
+
+      &__gold{
+        font-size: 15px;
+          color: #F5A623;
+      }
+    }
+  }
+  .empty{
+    text-align: center;
+    margin: 185px 56px 0;
+    // padding: 0 15px;
+    // font-family: PingFang-SC-Bold;
+    font-size: 16px;
+    color: #9999A1;
+    text-align: center;
+    .check-btn{
+      border: 1Px solid #E04141;
+      border-radius: 18px;
+      // font-family: PingFang-SC-Bold;
+      font-size: 16px;
+      color: #E04141;
+      text-align: center;
+      padding: 7px 0;
+      display: block;
+      width: 120px;
+      text-align: center;
+      margin: 15px auto 0;
+    }
+  }
+  .bottom-tip{
+    width: 100%;
+    height: 30px;
+    color: #9999A1;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px;
+  }
+
+}
+.rank-item__nick{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 138px;
+}

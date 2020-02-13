@@ -1,0 +1,45 @@
+.mall-mobile-container{
+    min-height: 100vh;
+    background: #F2F3F4;
+    overflow: hidden;
+    font-family: PingFang-SC-Medium;
+  .list{
+    padding: 20px 10px;
+  }
+  .item{
+    background: #FFFFFF;
+    height: 60px;
+    align-items: center;
+    // font-family: PingFangTC-Regular;
+    font-size: 18px;
+    color: #000000;
+    padding: 0 15px;
+    margin-bottom: 5px;
+    label{
+      font-size: 12px;
+      color: #8C8C8C;
+    }
+  }
+}
+
+.empty-box{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // font-family: PingFangSC-Regular;
+  font-size: 14px;
+  background: #fff;
+  color: #888888;
+  text-align: center;
+  .content{
+    width: 220px;
+    line-height: 1.5;
+    .img{
+      display: block;
+      width: 171px;
+      height: 177px;
+      margin:  0 auto 30px;
+    }
+  }
+}

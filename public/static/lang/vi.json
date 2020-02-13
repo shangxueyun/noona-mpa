@@ -1,0 +1,123 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "越南语",
+  "data": {
+    "seo": {
+      "title": "Noona, ở đây gặp những người cùng chí hướng",
+      "keywords": "Cộng đồng",
+      "description": "Gặp gỡ những người cùng chí hướng ở đây.",
+      "descriptions": "Noona là nơi trao đổi chủ đề, thể hiện bản thân và kết bạn. Hàng chục ngàn người tụ tập ở đây mỗi ngày. Dù bạn đến từ đâu, sở thích của bạn là gì, bạn có thể tìm thấy những người đặc biệt như bạn."
+    },
+    "load": {
+      "loading": "Đang tải...",
+      "loadRetry": "Không thể tải, nhấp để thử lại"
+    },
+    "task": {
+      "center": {
+        "title": "体力中心",
+        "NativeNavSubTitle": "填写邀请码",
+        "inviteFriendsShareTitle": "快来Noona，助我得体力吧",
+        "inviteFriendsShareDesc": "Noona là nơi trao đổi chủ đề, thể hiện bản thân và kết bạn.",
+        "subTitle": "做任务 得体力",
+        "strengthFull": "体力已满",
+        "strengthCountDown": "后体力可完全恢复",
+        "strengthTitle": "体力说明",
+        "strengthSubTitle1": "体力获得",
+        "strengthGet1": "做任务获得",
+        "strengthGet2": "每小时自动恢复，体力+10",
+        "strengthGet3": "首次注册登录，体力+10，体力上限+10",
+        "strengthSubTitle2": "体力消耗",
+        "strengthUse1": "观看视频，体力-1",
+        "strengthUse2": "下载视频，体力-2",
+        "strengthMark": "注：体力数据的更新可能会有延迟",
+        "inviteTitle1": "输入好友邀请码",
+        "inviteTitle2": "助Ta得体力!",
+        "inviteInput": "输入邀请码",
+        "inviteInputError": "邀请码无效！",
+        "inviteInputAlready": "你已填过邀请码!",
+        "inviteInputSuccess": "邀请码验证成功!",
+        "inviteInputSuccessTips1": "邀请好友得体力",
+        "inviteInputSuccessTips2": "赶快邀请好友吧",
+        "inviteBtnWant": "我要邀请",
+        "inviteBtn": "确认",
+        "copyRight": "Quyền giải thích cuối cùng thuộc sở hữu của Noona"
+      }
+    },
+    "wallet": {
+      "index": {
+        "title": "钱包",
+        "NativeNavSubTitle": "帮助中心",
+        "currentIncome": "本期收益(LuckyCion)",
+        "historyIncome": "历史总收益(LuckyCion)",
+        "recentIncomeRecord": "近期收益记录",
+        "transactionRecord": "交易记录",
+        "noRecord": "你还没有收益记录哦，赶紧去发布视频吧"
+      },
+      "transaction" : {
+        "title": "交易记录",
+        "noRecord": "暂无交易记录~"
+      }
+    },
+    "invite": {
+      "title": "Lời mời của tôi",
+      "NativeNavSubTitle": "Nhập mã mời",
+      "listTitle": "Danh sách mời",
+      "notInvitedTxt": "Chưa có bạn bè nào được mời",
+      "noMoreTxt": "Không còn nữa",
+      "popupTitle": "Nhập mã mời",
+      "popupPlaceHolder": "Nhập mã mời",
+      "popupInputError": "Mã thư mời không hợp lệ",
+      "popupBtn": "Xác nhận",
+      "popupTips1": "Xin lỗi, nhóm bạn của bạn đã đầy và có thể tham gia nữa.",
+      "popupTipsBtn1": "Tôi biết",
+      "popupTips2": "Đội thành công! Chúc mừng bạn đã là thành viên cao cấp của {group} và nội dung của nhóm này có thể được thưởng thức!",
+      "popupTipsBtn2": "Xem",
+      "popupTips3": "Đội thành công! Đội ngũ đối tác {num} vẫn còn đầy đủ, hãy kiên nhẫn chờ đợi!"
+    },
+    "friend": {
+      "title": "Mời bạn bè",
+      "shareBtnTxt": "Mời bạn bè",
+      "myInviteCodeTxt": "Mã thư mời của tôi",
+      "copyInviteCodeTxt": "sao chép",
+      "myInviteList": "Những người bạn được mời của tôi",
+      "copySuccess": "Bản sao thành công",
+      "copyError": "Sao chép thất bại, vui lòng nhấn và sao chép thủ công",
+      "emptyTxt": "Chưa có bạn bè",
+      "share": {
+        "title": "Khuyến nghị sử dụng Noona",
+        "desc": "Nội dung mới lạ có tất cả mọi thứ, nhóm riêng tư thật tuyệt vời"
+      }
+    },
+    "gold": {
+      "title": "vàng",
+      "goldTitle": "đồng tiền vàng hiện tại",
+      "emptyTxt": "Không có bản ghi",
+      "NativeNavSubTitle": "Làm thế nào để kiếm được tiền vàng?"
+    },
+    "goldHelp": {
+      "title": "Kiếm tiền",
+      "helpTitle": "Cách kiếm tiền vàng",
+      "list": [
+        "Người dùng mới sử dụng ứng dụng và nhận 1000 đồng vàng sau khi đăng ký thành công;",
+        "Mời một người bạn, mỗi lần bạn mời 1 người bạn để nhận 500 đồng vàng;",
+        "Tạo một nhóm và nhận 5% thu nhập hàng ngày của nhóm;",
+        "Xuất bản nội dung và phân chia nhóm sau khi được phát;",
+        "Xuất bản nội dung riêng tư, sau khi được mở khóa, nhóm được chia thành + chia sẻ thanh toán nội dung (100 đồng vàng có thể nhận 50 đồng vàng) + sau khi được chơi, nhóm được chia thành các nhóm;",
+        "Kiểm tra và nhận được chia đội;"
+      ]
+    },
+    "inviteCode": {
+      "title": "Nhập mã thư mời",
+      "inviteTitle": "Điền mã mời để nhận phong bì đỏ",
+      "codePlaceholder": "Nhập mã thư mời",
+      "codeTip": "Vui lòng nhập mã mời chính xác",
+      "btnTxt": "Xóa phong bì màu đỏ",
+      "tip":"Yêu cầu bạn bè / người được đề nghị của bạn",
+      "bindSuccessTip": "Liên kết mã lời mời thành công",
+      "goldTxt": "Tiền vàng",
+      "backBtnTxt": "trở lại",
+      "moreBtnTxt": "Nhiều cách hơn để kiếm tiền"
+    }
+  }
+}

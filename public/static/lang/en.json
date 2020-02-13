@@ -1,0 +1,349 @@
+{
+  "code": 0,
+  "msg": "success",
+  "name": "英语",
+  "data": {
+    "seo": {
+      "title": "Noona, meet like-minded people here.",
+      "keywords": "community",
+      "description": "Meet like-minded people here.",
+      "descriptions": "Noona is a place to exchange topics, show yourself, and make friends. Tens of thousands of people gather here every day. No matter where you are from, what are your hobbies, you can find people who are as special as you."
+    },
+    "load": {
+      "loading": "Loading...",
+      "loadRetry": "Failed to load, click to try again"
+    },
+    "wallet": {
+      "index": {
+        "title": "My wallet",
+        "nativeNavSubTitle": "Rules",
+        "todayIncome": "Today's income",
+        "yourOwn": "Your Noona Coins",
+        "btnText": "Top-up",
+        "Cash":"Cash in",
+        "detailTitle": "History",
+        "noRecord": "No transaction records,go and check in now! ",
+        "checkInBtn": "Check in",
+        "exchangeRateText": "Today's exchange rate",
+        "detailType": [
+          {
+            "key": 1,
+            "value": "Check-in reward"
+          },
+          {
+            "key": 2,
+            "value": "Inviting reward"
+          },
+          {
+            "key": 3,
+            "value": "Phone top-up"
+          }
+        ],
+        "howGetMoreMoney": "Read more articles to earn more cash"
+      }
+    },
+    "rechargeRules": {
+      "index": {
+        "title": "Cash in",
+        "headerGCash":"How to Cash-in Using GCash",
+        "Tocash": "To cash-in:",
+        "Tocashtext1":"1. Log in to your verified GCash account.",
+        "Tocashtext2":"2. Click the Send Money icon.",
+        "Tocashtext3":"3. Click on Express Send.",
+        "Tocashtext4":"4. Enter the Noona mobile number below:",
+        "number":"0946 5641600",
+        "Patricia":"Patricia Kayle S. Martin, Noona Disbursement Officer",
+        "Tocashtext5_1":": In the Message/notes section, enter your ",
+        "Noona":"Noona User ID",
+        "Tocashtext5_2":". This can be found in your Profile Page.",
+        "VERYIMPORTANT":"VERY IMPORTANT",
+        "Tocashtext6":"6. Enter the amount to cash-in.",
+        "Tocashtext6_1":"-Note: Must be a MINIMUM of ₱10.",
+        "Tocashtext6_2":"-Only whole numbers (ending in zero) can be accepted.",
+        "Tocashtext6_3":"-₱1 = 1 Noona Coin. ₱10 will convert to P10 Noona Coins, etc",
+        "Tocashtext7":"7. Click Send.",
+        "Tocashtext8":"8. Noona coins will be credited to your wallet!",
+        "Notes":"Notes:",
+        "Notestext1":"1. Cut-off is 12:00 PM every day.",
+        "Notestext2":"2. Payments sent by 12:00 PM will be credited to your Noona wallet by 18:00 of the same day.",
+        "Notestext3":"3. Payments sent after 12:00 PM will be credited by 12:00 PM of the following day."
+      },
+      "result": {
+        "title": "Cash in result",
+        "Congratulations": "Congratulations on your recharge",
+        "amountMinutes":"The amount will arrive in a few minutes",
+        "Game":"Go to ₱1 Game",
+        "Recharge": "Recharge failed",
+        "Failure":"Failure reasons: ",
+        "Close":"Close",
+        "Back":"Back"
+      }
+    },
+    "mall": {
+      "index": {
+        "title": "Top Up Center",
+        "globeTitle": "Globe",
+        "smartTitle": "Smart",
+        "yourOwn": "You  own",
+        "placeHolder": "10 digits starting with 9",
+        "enterYourPhoneNumber": "Enter your phone number",
+        "tip1": "Up to 3 mobile numbers for one account",
+        "tip2": "Terms and Conditions",
+        "telLimitTip": "Up to 3 mobile numbers for one account",
+        "telErrorTip": "Please enter the correct number",
+        "btnText": "Pay with {0}",
+        "btnNotText": "Cash not enough",
+        "popupMobile": "Moblie Number",
+        "popupTopUp": "Top up",
+        "popupTip": "An account can only recharge 3 mobile phone numbers！",
+        "popupBtnCancel": "cancel",
+        "popupBtnConfirm": "confirm",
+        "reChangeSuccess": "Congratulations Recharge successful",
+        "yourBalance": "Your balance"
+      },
+      "mobile": {
+        "title": "Mobile number",
+        "unitText": "moblie number",
+        "empty": "oops,<br>No information currently available"
+      },
+      "history": {
+        "title": "history",
+        "nativeNavSubTitle": "Mobile number",
+        "empty": "oops,<br>No information currently available"
+      }
+    },
+    "invite": {
+      "title": "My Invitation",
+      "nativeNavSubTitle": "",
+      "headTip": {
+        "tip1": "Invite friends to earn",
+        "tip2": "up to 100 coins everyday!"
+      },
+      "codeText": "Invitation code",
+      "copyBtnText": "Copy",
+      "copySuccess": "Successful copy",
+      "copyError": "Copy failed, please try again",
+      "shareMoreText": "More",
+      "shareTitle": "Invite friends to win cash",
+      "shareDesc": "Invite friends to earn up to 100 coins everyday!",
+      "dallyBounsTitle": "Daily Bonus",
+      "bounsDayText": "Day",
+      "bounsDayCheckedText": "checked",
+      "checkInBtn": "CHECK IN",
+      "checkedInBtn": "CHECKED IN",
+      "checkInError": "Error",
+      "checkInSuccess": "Congratulations,+{0}",
+      "linkTitle1": "Enter Invitation Code ",
+      "linkTitle2": "Leaderboard",
+      "popupTitle": "Enter invitation code",
+      "popupPlaceHolder": "Enter here",
+      "popupInputError": "Invalid!",
+      "popupTipsBtn1": "Verify",
+      "popupTips2": "Invitation code verified successfully！",
+      "popupTips2-2": "Check in to earn your 5 coins reward！",
+      "popupTipsBtn2": "OK"
+    },
+    "inviteRank": {
+      "title": "Leaderboard",
+      "totalListTitle": "All users",
+      "myListTitle": "My friends",
+      "emptyTip": "Oops, no friends invited, go and get'em",
+      "inviteFriendBtn": "Invite friends"
+    },
+    "share": {
+      "invite": {
+        "title": "Win Your Reward",
+        "subTitle": "5 pesos for Singing up",
+        "inviteTxt": "Wants to share a fortune",
+        "copyTxt": "Enter invitation code and sign up",
+        "inviteCodeTxt": "Invitation code",
+        "btnCopyTxt": "Copy",
+        "btnDownloadTxt": "Download to claim your rewards"
+      }
+    },
+    "stock": {
+      "index": {
+        "poolTitle": "Total collections :",
+        "poolDesc": "All winners who guess correctly will SPLIT the total collections.",
+        "unit": "coin",
+        "balance": "Balance:",
+        "selectAmount:": "Select amount:",
+        "title": "Up or down,take a guess！",
+        "rule": "Rules",
+        "rise": "rise",
+        "fall": "fall",
+        "topTitle": "Leaderboard",
+        "topDesc": "Top 20 earners",
+        "insufficient": "Balance insufficient.",
+        "btnConfirm": "Confirm",
+        "rewardTitle": "The results are in!",
+        "rewardSubtitle": "Check to see if your bet won!"
+      },
+      "history": {
+        "unit": "coin",
+        "title": "History",
+        "subTitle": "Ticket",
+        "date": "Date",
+        "wager": "Contribution",
+        "amount": "amount",
+        "result": "Result",
+        "rise": "Rise",
+        "fall": "Fall",
+        "announce": "Win Lose Pending",
+        "more": "more",
+        "empty": "NO orders yet..."
+      },
+      "rule": {
+        "title": "Participation rules",
+        "content1": "1. Participation rules: Only Noona users can play.",
+        "content2": "2. The game is open from 16:00 of the day before trading day to 11:00 on trading day.",
+        "content3": "3. Users can contribute the number of coins specified in the collection box. The entry cannot be changed after the contribution is made, but multiple contributions can be made within one game period.",
+        "content4": "4. At 16:00 on trading day, users can enter the Contribution page to view the results…",
+        "content5": "5. Special Note: If violations are found before and after the event, it is not limited to false transactions, malicious billing, fraudulent use of other people's identity, etc. We have the right to cancel the event participation qualification and the qualification to receive the award.",
+        "content6": "6. If the market does not rise or fall, the game will award the users who select “Rise.”"
+      }
+    },
+    "ticket": {
+      "index": {
+        "title": "Mall",
+        "money": "Your balance",
+        "listTile": "All ",
+        "statusTrue": "Redeem",
+        "statusFalse": "Sold out",
+        "mores": "No more goods…",
+        "unit": "coin"
+      },
+      "commodity": {
+        "unit": "coin",
+        "title": "Details",
+        "listTile": "Coupon terms and conditions",
+        "exchange": "Redeem",
+        "soldOut": "Sold out",
+        "mustNumber": "Must link phone number"
+      },
+      "orderDetails": {
+        "unit": "coin",
+        "title": "Order detail",
+        "successful": "The exchange was successful!",
+        "couponNumber": "Coupon number",
+        "Conditions": "Coupon terms",
+        "valid": "Vaild Till",
+        "Copy": "Copy",
+        "copySuccess": "Successful copy",
+        "copyError": "Copy failed, please try again",
+        "Payment": "Payment amount",
+        "orderNo": "Order number",
+        "paymentTime": "Time of payment",
+        "selectTitle": "Coupon terms and conditions",
+        "Used": "Used",
+        "confirmUsed": "Mark as used"
+      },
+      "commodityList": {
+        "unit": "coin",
+        "title": "Order list",
+        "Unused": "Unused",
+        "Used": "Used",
+        "mores": "No more orders"
+      }
+    },
+    "treasure": {
+      "TreasureDetails": {
+        "issueNumber": "Record:",
+        "Total":"Total:",
+        "Remaining":"Remaining:",
+        "SelectedParticipants":"Select the number of slots:",
+        "SelectedParticiPay":"Pay for your slots:",
+        "Need":"Need ₱",
+        "More":"More",
+        "CHECKOUTNOW":"CHECKOUT NOW",
+        "productDetails":"Product Details:",
+        "Confirm":"Confirm",
+        "mustNumber":"Must link phone number",
+        "Betwait":"Reserving slots… please wait a moment",
+        "Congratulations":"Congratulations, you bet",
+        "successfullyParticipated":"You have successfully participated in ",
+        "view":"Check",
+        "participatedPurchase":"You have participated in the activity",
+        "WaitingDraw":"Waiting for the draw!",
+        "calculationWill":"The raffle will be drawn a few minutes!",
+        "betNumber":"No. of Slots:",
+        "luckyNumber":"Winning Entry:",
+        "seeMore":"Check",
+        "CongratulationsID":"Wow!",
+        "Acquire":"Won a",
+        "nickname":"Nickname:",
+        "Balance":"Balance: ",
+        "needYou":"You need ",
+        "insufficient": "Balance insufficient.",
+        "winningRecord":"No winning record",
+        "availableCurrent":"Limit exceeded,Order adjusted.",
+        "Sorry":"Sorry!",
+        "notEnough":"Not enough people joined.The amount has been refunded to your account.",
+        "LimitExceeded":"Limit exceeded"
+      },
+      "Rules": {
+        "title": "Rules",
+        "HowPlay":"How to play",
+        "Ex":"Ex.: if the item is worth ",
+        "slots":", it will have 5 slots. You can exchange:",
+        "slot1":"1 slot",
+        "slot2":"3 slots",
+        "rate1":"Win rate: 20%",
+        "rate2":"Win rate: 60%",
+        "raffleDrawn":"The raffle will be drawn when all slots are sold out"
+      }
+    },
+    "NBAbet":{
+      "index":{
+        "DATE":"DATE",
+        "title":"BET",
+        "POINTS":"TOTAL POINTS",
+        "LASTRESULT":"LAST SCORE RESULT",
+        "CHECK":"Check",
+        "VS":"V/S",
+        "BET":"Contribution",
+        "WIN":"Collections",
+        "winner":"Winners list",
+        "winnerlist":"Winners",
+        "Refund":"Refund",
+        "ListWinners":"List of Winners",
+        "NoChoice":"No bets",
+        "SomeChoose":"Someone has bet",
+        "My":"Your bet",
+        "EndingGame":"Ending Game",
+        "YourChoice":"Your choice",
+        "Balance":"Balance: ",
+        "money": "coin",
+        "Max":"MAX",
+        "Confirm":"Confirm",
+        "BetConfirmed":"Bet confirmed!",
+        "stake":"Stake: ",
+        "combination":"Winning combination: ",
+        "closeCombination":"Unfortunately, no one bet on this combination.",
+        "Name":"Name",
+        "PrizeMoney":"Prize money",
+        "BettingOver":"Betting for this game has closed.",
+        "started":"The bet is closed. Please click another game!",
+        "started1":"Betting for game has not started yet. Please click another game!",
+        "insufficient": "Balance insufficient.",
+        "closed":"Sorry,The bet is closed.",
+        "Go":"Go"
+      },
+      "Rules": {
+        "title": "Rules",
+        "slots1_1":"1. Select the NBA game.",
+        "slots1_2":"2. Select one ending score combination.",
+        "slots1_3":"3. Confirm the amount of your entry.",
+        "slots1_4":"4. Enjoy the game!",
+        "slots1_5":"5. If your choice is the winning combination, your name will appear in the 'Winner list'.",
+        "headText":"Important notes:",
+        "instructions":"Score Match instructions",
+        "slots2_1":"1. Game will open 24 hours before game time.",
+        "slots2_2":"2. Game will close at half time.",
+        "slots2_3":"3. You can place entries on as many games and combinations as you want!",
+        "slots2_4":"4. If more than one user places an entry on the winning combination, they will share the prize equally.",
+        "slots2_5":"5.Noona has the right to cancel any rewards if we find any cheating or related activity."
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.main-container {
+  background: #F2F3F4;
+  color: #000;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px ;
+  // font-family: PingFang-SC-Medium;
+  font-family: PingFang-SC-Medium;
+  .content-box{
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 10px;
+    h1{
+      // font-family: PingFang-SC-Bold;
+      font-size: 16px;
+      color: #262628;
+      letter-spacing: 0;
+      margin: 0 0 6px;
+    }
+    p{
+      // font-family: PingFang-SC-Medium;
+      font-size: 14px;
+      color: #9999A1;
+      letter-spacing: 0;
+      line-height: 20px;
+      margin-bottom: 12px;
+      &:last-of-type{
+        margin-bottom: 0;
+      }
+      &.notice{
+        color: #262628;
+      }
+    }
+  }
+}
